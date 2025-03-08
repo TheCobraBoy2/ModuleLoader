@@ -56,7 +56,7 @@ export type KeepModulePredicate = (container: Instance, module: ModuleScript) ->
 
 -- CONSTANTS --
 local SETTINGS: LoaderSettings = {
-	FOLDER_SEARCH_DEPTH = 1,
+	FOLDER_SEARCH_DEPTH = 0,
 	YIELD_THRESHOLD = 10,
 	VERBOSE_LOADING = false,
 	WAIT_FOR_SERVER = true,
