@@ -68,7 +68,7 @@ function ExampleHandler:Start()
 end
 ```
 
-To run a module in parallel add a boolean attribute the the module called "Parallel" and set it to true.
+To run a module in parallel add a boolean attribute to the module called "Parallel" and set it to true.
 
 You should NOT hog the main thread of execution in the :Init() or :Start function.
 If you need an infinite while loop withing these functions, place it in a separate corouting using task.spawn() or task.defer().
